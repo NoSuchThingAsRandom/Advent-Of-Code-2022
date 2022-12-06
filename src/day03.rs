@@ -31,11 +31,6 @@ pub fn part_1(use_example_input: bool) -> anyhow::Result<usize> {
             //print!("{} -> {},\t", char, char_int);
             score += char_int as usize;
         }
-        /*        for char in one.chars() {
-                    if two.contains(&char){
-                        println!("'{}' -> '{}'",char,char as u32);
-                    }
-                }*/
     }
     Ok(score)
 }
